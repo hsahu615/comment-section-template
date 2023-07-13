@@ -1,0 +1,70 @@
+.comment-box{
+    background-color: var(--white);
+    border-radius: 8px;
+}
+
+.total-like-count, .like-increment-btn, .like-decrement-btn {
+    color: var(--grayish-blue);
+    font-weight: 500;
+    background-color: hsl(239, 57%, 95%);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: none;
+}
+
+.like-increment-btn {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.like-decrement-btn {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.reply-text{
+    color: var(--moderate-blue);
+    fill: var(--moderate-blue);
+}
+
+.reply-text:hover {
+    color: var(--light-grayish-blue);
+    fill: var(--light-grayish-blue);
+}
+
+.reply-box{
+    min-height: 150px;
+}
+
+.avatar-thumnail{
+    height: 30px;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reply-text-box{
+    width: 100%;
+    border-color: var(--light-grayish-blue);
+    outline: 1 solid var(--light-grayish-blue);
+    border-radius: 8px;
+}
+
+.reply-text-box:focus-visible{
+    border-color: var(--light-grayish-blue);
+}
+
+.reply-btn{
+    background-color: var(--moderate-blue);
+    border: none;
+}
+
+.reply-btn:hover {
+    background-color: var(--light-grayish-blue);
+    border: none;
+}
+
+.delete-comment-btn {
+    color: var(--soft-red);
+}

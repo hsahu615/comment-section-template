@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CommentBoxComponent } from './components/comment-box/comment-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CommentBoxComponent
   ],
   imports: [
     BrowserModule
